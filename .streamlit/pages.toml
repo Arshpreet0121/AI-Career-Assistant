@@ -1,0 +1,32 @@
+[[pages]]
+path = "App.py"
+name = "App"
+default = true
+
+[[pages]]
+path = "pages/Home.py"
+name = "🏠 Home"
+
+[[pages]]
+path = "pages/Resume_Generator.py"
+name = "📄 Resume Generator"
+
+[[pages]]
+path = "pages/ATS_Analyzer.py"
+name = "📊 ATS Analyzer"
+
+[[pages]]
+path = "pages/Job_Match.py"
+name = "🎯 Job Match"
+
+[[pages]]
+path = "pages/Cover_Letter.py"
+name = "💌 Cover Letter"
+
+[[pages]]
+path = "pages/Upload_Resume.py"
+name = "📂 Upload Resume"
+
+[[pages]]
+path = "pages/Settings.py"
+name = "⚙️ Settings"

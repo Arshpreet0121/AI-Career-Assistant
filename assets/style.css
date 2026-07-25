@@ -1,69 +1,45 @@
-/* Background */
-.main{
-    padding-top:20px;
-}
-
-/* Hero Banner */
-
 .hero{
-    background:linear-gradient(135deg,#2563eb,#7c3aed);
-    padding:35px;
-    border-radius:18px;
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
     color:white;
+    padding:60px;
+    border-radius:22px;
     text-align:center;
-    margin-bottom:30px;
+    margin-bottom:35px;
 }
 
 .hero h1{
-    font-size:52px;
+    font-size:58px;
 }
 
-.hero h3{
-    color:#dbeafe;
+.hero-subtitle{
+    font-size:24px;
+    font-weight:600;
 }
 
-.hero p{
+.hero-text{
     font-size:18px;
+    max-width:800px;
+    margin:auto;
+    line-height:1.7;
 }
-
-/* Cards */
 
 .card{
-
-    border-radius:18px;
-
-    padding:20px;
-
     background:#1f2937;
-
-    border:1px solid #374151;
-
+    padding:25px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.08);
+    margin-bottom:20px;
     transition:0.3s;
-
-    height:140x;
-
 }
 
 .card:hover{
-
-    transform:translateY(-6px);
-
-    border:1px solid #60a5fa;
-
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
 }
 
-/* Buttons */
-
-.stButton>button{
-
-    width:100%;
-
-    height:55px;
-
-    border-radius:12px;
-
-    font-size:18px;
-
-    font-weight:bold;
-
+div[data-testid="stMetric"]{
+    background:#1f2937;
+    border-radius:16px;
+    padding:15px;
+    border:1px solid rgba(255,255,255,.08);
 }
